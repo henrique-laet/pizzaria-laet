@@ -42,7 +42,7 @@ h2 {
     font-weight: 200;
 }
 
-h2 ::after {
+h2::after {
     display: block;
     background-color: #078C31;
     height: 5px;
@@ -52,7 +52,7 @@ h2 ::after {
 }
 
 h4 {
-    font-size: 150%;
+    font-size:150%;
     font-weight: 150;
     padding: 20px 0;
 }
@@ -134,5 +134,14 @@ div.pontos-chaves h4:after {
      font-size: 90%;
 
      text-transform: uppercase;
-     
+
  }
+
+ /*----------------------------*/
+ /*  SECAO - DEPOIMENTOS       */                        
+/*----------------------------*/
+
+section#testemunha p.destaque {
+    width: 35%;
+    background-color: rgba(255,255,255,0.7);
+}
