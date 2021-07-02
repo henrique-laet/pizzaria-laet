@@ -38,3 +38,9 @@ $('div#testemunha-esquerda').click( function() {
         $('div#testemunha-esquerda ion-icon').css('cursor','not-allowed');  
     }
 })
+
+// codigos para clique para assinar
+
+$('div.planos-bottom').click(function() {
+    alert("clicou")
+})
