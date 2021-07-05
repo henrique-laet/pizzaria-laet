@@ -44,3 +44,16 @@ $('div#testemunha-esquerda').click( function() {
 $('div.planos-bottom').click(function() {
     alert("clicou")
 })
+
+// codigos para links das redes sociais
+$("ion-icon#instagram").click(function(){
+    window.open("http://www.instagram.com", "_blank");
+})
+
+$("ion-icon#facebook").click(function(){
+    window.open("http://www.facebook.com", "_blank");
+})
+
+$("ion-icon#linkedin").click(function(){
+    window.open("http://www.linkedin.com", "_blank");
+})
