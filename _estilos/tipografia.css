@@ -139,12 +139,13 @@ div.pontos-chaves h4:after {
 
  section#pizza p.destaque {
     color: #fff;
+    opacity: 0;
 
     width: 40%;
  }
 
  section#pizza ul, li {
-     color: black;
+     color: white;
      list-style: none;
      line-height: 1.9;
      font-size: 90%;
@@ -180,6 +181,7 @@ section#plano-principal ul li {
     margin-left: 30px;
     line-height: 2;
     text-decoration: none;
+    color: black;
 }
 
 section#plano-principal div.planos-bottom p {
