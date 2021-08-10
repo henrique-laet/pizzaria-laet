@@ -144,14 +144,18 @@ div.pontos-chaves h4:after {
     width: 40%;
  }
 
- section#pizza ul, li {
+ section#pizza ul li, section#pizza ul li a {
      color: white;
      list-style: none;
      line-height: 1.9;
-     font-size: 90%;
+     font-size: 100%;
 
      text-transform: uppercase;
+     text-decoration: none;
+ }
 
+ section#pizza ul li a:hover {
+    text-decoration: underline;
  }
 
  /*----------------------------*/

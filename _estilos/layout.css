@@ -56,7 +56,7 @@ nav div {
 .logoEstatico {
     height: 55px;
     width: 75px;
-    margin-left:50px;
+    margin-left:0;
     background-color: #065902;
     transition-duration: 0.8s;
 }
@@ -66,7 +66,7 @@ nav div {
 }
 
 nav ul {
-    display: flex;
+    display: flex; 
     flex-flow: row wrap;
     justify-content: left;
 
@@ -79,6 +79,11 @@ nav ul {
 
 nav ul#esquerda {
     float:left;
+}
+
+nav ul#icone-menu-mobile {
+    float: right;
+    display: none;
 }
 
 nav ul#direita {
@@ -116,7 +121,7 @@ nav ul li a:hover {
 
 .iconeEstatico {
     color: #404040;
-    margin-right: 50px;
+    margin-right: 15px;
 }
 
 nav ion-icon{
@@ -255,7 +260,7 @@ div#pontos-chaves-mestre {
 div.pontos-chaves {
     text-align: center;
     width: 25%;
-    
+
 }
 
 section#domingo-perfeito div.pontos-chaves ion-icon {
@@ -441,11 +446,11 @@ div#transicao-testemunha-plano div#decoracao3 {
 /*-------------------------------*/
 
 section#plano-principal {
-    width: 100%;
-   
+    width:100%;
+    height: 800px;
 }
 
-div#plano-janela {
+div#planos-janela {
     width:80%;
     margin:30px auto;
 
@@ -462,7 +467,7 @@ div.planos {
 }
 
 div.planos-top {
-    width:250px;
+    width:100%;
     height: 350px;
     background-color: #F7F7F7;
     border-top-left-radius: 20px;
@@ -473,7 +478,7 @@ div.planos-top {
 }
 
 div.planos-bottom {
-    width: 250px;
+    width:100%;
     height: 100px;
     background-color: #078C31 ;
     border-bottom-left-radius: 20px;
@@ -481,7 +486,7 @@ div.planos-bottom {
 
     box-shadow: 2px 2px 3px #ccc;
 
-    cursor: pointer;
+    cursor:pointer;
 }
 
 
